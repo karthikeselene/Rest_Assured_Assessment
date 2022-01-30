@@ -4,9 +4,9 @@ import org.testng.Assert;
 
 import io.restassured.response.Response;
 
-public class TestAssertions {
+public class TestAssertions implements ITestAssertion {
 
-	public static void verifySuccessCode(Response response, int eCode) {
+	public void verifySuccessCode(Response response, int eCode) {
 		try {
 			Assert.assertEquals(response.getStatusCode(), eCode);	
 			System.out.println("Expeted value <"+eCode+"> matches with the actual one <"+response.getStatusCode()+">");			
@@ -15,7 +15,7 @@ public class TestAssertions {
 		}		
 	}
 
-	public static void verifySuccessLine(Response response, String eValue) {
+	public void verifySuccessLine(Response response, String eValue) {
 		if(response.getStatusLine().toUpperCase().contains(eValue.toUpperCase())) {
 			System.out.println("Expeted value <"+eValue+"> matches with the actual one <"+response.getStatusLine()+">");
 		} else {
@@ -23,7 +23,7 @@ public class TestAssertions {
 		}
 	}
 
-	public static void verifyArraysize(int eValue, int aValue) {
+	public void verifyArraysize(int eValue, int aValue) {
 		try {
 			Assert.assertEquals(eValue, aValue);	
 			System.out.println("Expeted value <"+eValue+"> matches with the actual one <"+aValue+">");			
@@ -32,7 +32,7 @@ public class TestAssertions {
 		}		
 	}
 
-	public static void verifyResponseContent(Object eValue, String aValue) {
+	public void verifyResponseContent(Object eValue, String aValue) {
 		try {
 			Assert.assertEquals(eValue.toString(), aValue);
 			System.out.println("Expeted value <"+eValue+"> matches with the actual one <"+aValue+">");

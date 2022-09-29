@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-01-30T14:04:00.815Z",
+        "start_timestamp": "2022-02-06T09:09:05.560Z",
         "line": 5,
         "name": "UK citizen can able to get the correct corona cases from the api",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 518500160,
+              "duration": 502047018,
               "status": "passed"
             },
             "line": 6,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 4157226946,
+              "duration": 3668767401,
               "status": "passed"
             },
             "line": 7,
@@ -43,7 +43,7 @@
           },
           {
             "result": {
-              "duration": 92671312,
+              "duration": 59530949,
               "status": "passed"
             },
             "line": 8,
@@ -62,7 +62,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-01-30T14:04:05.674Z",
+        "start_timestamp": "2022-02-06T09:09:09.860Z",
         "line": 10,
         "name": "UK citizen could not able get the corona cases from the api with invaild query input",
         "description": "",
@@ -72,7 +72,7 @@
         "steps": [
           {
             "result": {
-              "duration": 492026,
+              "duration": 491097,
               "status": "passed"
             },
             "line": 11,
@@ -84,7 +84,7 @@
           },
           {
             "result": {
-              "duration": 2481354048,
+              "duration": 2322401910,
               "status": "passed"
             },
             "line": 12,
@@ -102,7 +102,7 @@
           },
           {
             "result": {
-              "duration": 13659413,
+              "duration": 9814392,
               "status": "passed"
             },
             "line": 13,
@@ -115,7 +115,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-01-30T14:04:08.188Z",
+        "start_timestamp": "2022-02-06T09:09:12.207Z",
         "line": 15,
         "name": "UK citizen could not able get the corona cases details with unauthorized api token",
         "description": "",
@@ -125,7 +125,7 @@
         "steps": [
           {
             "result": {
-              "duration": 518437,
+              "duration": 608358,
               "status": "passed"
             },
             "line": 16,
@@ -137,7 +137,7 @@
           },
           {
             "result": {
-              "duration": 390666727,
+              "duration": 435333961,
               "status": "passed"
             },
             "line": 17,
@@ -155,7 +155,7 @@
           },
           {
             "result": {
-              "duration": 507587,
+              "duration": 1265860,
               "status": "passed"
             },
             "line": 18,
